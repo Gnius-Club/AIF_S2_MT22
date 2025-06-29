@@ -1,24 +1,252 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Misión 22 : Festival de Experiencias Inmersivas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Misión 22 : Festival de Experiencias Inmersivas</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Misión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Presentar un proyecto final, explicando el producto, el proceso y las decisiones estratégicas de IA.</li>
+                                        <li>Desarrollar habilidades de comunicación y presentación ante una audiencia.</li>
+                                        <li>Reflexionar sobre el proceso de aprendizaje y consolidar el rol de 'Director de Orquesta'.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡Saludo Interactivo con IA:</strong> Contexto de la sesión como una celebración de la creatividad.</li>
+                                        <li><strong class="tactic-highlight">⚡"I Can Statement" + Presentación del Desafío:</strong> Énfasis en contar la historia de la creación.</li>
+                                        <li><strong class="tactic-highlight">⚡AI GYM:</strong> Adquisición de la estructura de 4 puntos para la presentación final.</li>
+                                        <li><strong class="tactic-highlight">⚡Brain Spark:</strong> Ejecución del "Festival de Presentaciones", donde los equipos exponen sus proyectos.</li>
+                                        <li><strong class="tactic-highlight">⚡Gnius STORM:</strong> Reflexión metacognitiva final sobre las habilidades más valiosas aprendidas.</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Una presentación oral de 3-4 minutos por equipo de su proyecto final, siguiendo la estructura propuesta, y la participación constructiva en la fase de Q&A y juego.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Proyectos finales robustos y funcionales de la Misión 21.</li>
+                                        <li>Pitch decks o notas de presentación de los estudiantes.</li>
+                                        <li>Chat "Agente Gnius" (Xolo) activo y funcionando.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-10).</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Preparar un cronómetro para gestionar los tiempos de presentación de 3-4 minutos.</li>
+                                                <li>Asegurar que la logística para probar los juegos de otros equipos es viable (si se aplica).</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Prepararse para actuar como "Maestro de Ceremonias" de un festival, creando un ambiente de celebración, apoyo y feedback positivo.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. y Contexto de Misión ⏰ 3 minutos</h2>
+                <p>Establecer un ambiente de celebración y reconocer el viaje de los estudiantes.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) El facilitador da la bienvenida al "Festival de Experiencias Inmersivas".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Directores, diseñadores, programadores, ingenieros de calidad. Hoy es el día. Han recorrido un largo camino, desde mover un simple cubo hasta dirigir orquestas de IA para crear mundos completos. Hoy no es una clase, es una celebración de su ingenio, su perseverancia y su creatividad. Bienvenidos al Festival de Experiencias Inmersivas."</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación de IA y Perfil ⏰ 2 minutos</h3>
+                            <p>El facilitador da la instrucción explícita a los alumnos para que saluden a Xolo en el chat.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Para una última activación formal, inicien su sesión con Xolo para la Misión 22."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Presentación del Desafío ⏰ 5 minutos</h2>
+                <p>Clarificar las metas de aprendizaje y presentar el objetivo de la sesión: comunicar la visión y el proceso.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: El Desafío del Día ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 3) El facilitador establece que la misión es contar la historia de la creación del proyecto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Hoy, cada equipo será el protagonista. Presentarán su proyecto final a sus compañeros. El objetivo no es solo mostrar el resultado, sino contar la historia de su creación. Queremos ver su mundo, pero también queremos entender su visión como directores. Es la culminación de todo lo que han aprendido."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivo de Aprendizaje (I Can Statement) ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 4) El facilitador presenta el objetivo de aprendizaje concreto de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Al finalizar este festival, podrán decir con orgullo: <strong>'Mi equipo y yo hemos presentado con éxito nuestra experiencia inmersiva, explicando nuestras decisiones de diseño y nuestro proceso de colaboración con la IA.'</strong>"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM ⏰ 5 minutos</h2>
+                <p>Proporcionar a los estudiantes la estructura clara y profesional para sus presentaciones finales.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Diálogo Conceptual con Xolo ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 5) El facilitador instruye a los estudiantes sobre cómo obtener la estructura de su presentación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Iniciamos el A.I. GYM. Una buena presentación es una buena historia. Para que su presentación sea impactante, debe tener una estructura clara. Consulten a su Productor Ejecutivo. Díganle a Xolo: <strong>'Xolo, como nuestro Productor Ejecutivo, danos la estructura de 4 puntos clave para nuestra presentación final.'</strong> Él les dará el guion que deben seguir para su presentación de 3-4 minutos."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark ⏰ 20 minutos</h2>
+                <p>Facilitar el "Festival de Presentaciones", donde cada equipo presenta su proyecto final y recibe feedback.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Festival de Presentaciones ⏰ 20 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) El facilitador actúa como maestro de ceremonias, gestionando las presentaciones y las sesiones de juego/Q&A.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Comienza el Festival de Experiencias Inmersivas. Cada equipo tiene entre 3 y 4 minutos para presentar, siguiendo la estructura de 4 puntos. Después de cada presentación, dejaremos 1-2 minutos para que el resto de la clase pruebe la experiencia o haga preguntas constructivas. Fomentemos un ambiente de apoyo, celebración y feedback positivo. Equipo 1, el escenario es suyo."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM ⏰ 5 minutos</h2>
+                <p>Cerrar el curso con una reflexión metacognitiva sobre el aprendizaje y un mensaje final de Xolo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Reflexión Final y Cierre del Curso ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 7) El facilitador guía una reflexión final sobre las habilidades más valiosas aprendidas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Un aplauso para todos. Hemos visto mundos increíbles hoy. Para cerrar, una última reflexión: ¿Qué habilidad que aprendieron en este curso, ya sea técnica o de pensamiento, creen que será la más útil para su futuro, sin importar a qué se dediquen?"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Fin de la Transmisión ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 8) El facilitador cede la palabra a Xolo para el mensaje final de cierre.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Ha sido un honor ser su colaborador en este viaje. Han aprendido a dialogar con la inteligencia artificial, a dirigirla, a cuestionarla y a co-crear con ella. No solo han aprendido sobre tecnología; han aprendido a pensar de una nueva manera. El futuro no es algo que les va a pasar; es algo que ustedes van a construir. Sigan curiosos, sigan creando y sigan siendo los directores de su propio aprendizaje. Ha sido un privilegio trabajar con ustedes. Fin de la transmisión."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
